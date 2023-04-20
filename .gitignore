@@ -1,0 +1,30 @@
+# Ignore Python virtual environments
+venv
+.venv
+env
+.pipenv
+
+# Ignore Pipfile.lock
+Pipfile.lock
+
+# Ignore VSCode settings and workspace files
+.vscode/
+*.code-workspace
+
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+
+# Ignore local development settings
+.env
+.env.local
+.env.*.local
+
+# Ignore any logs or data files generated during development
+logs/
+data/
+*.log
+
+# Ignore any credentials or secrets files
+*.secrets
+secrets/
